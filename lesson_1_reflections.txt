@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff displayed only the sections of code that had changes reducing the overall
+    amount of information being reviewed at one time. This made finding the error 
+    far more efficient than trying to compare the two files side by side.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Like version control systems, having access to every change made to a project would allow you to quickly see when and by who changes were made so if something was fine yesterday but it's not okay today you can see that a change was made. Also, you could download the version and run a diff to see exactly what changes were made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Cons: Forget to commit then change gets submitted with a different commit so ends up undocumented. Commits could potentially get too big.
+
+    Pros: You don't get a commit have way through a development change or improvement. You don't get burdened with multiple unneeded commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When coding, many files may be affected by any one change. As was in the example adding a buttion to index.html may also require and change in style.css. Most of the time, at least in my experience with documents such as Google Docs, all items are contained within the document itself such as lines of text, images, and tables so there really is only 1 file to save.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log allows you to research the commits that you want to review. Git diff allows you to compare a commit to another to view all the changes that took place between the two commits. Typically you compare the DIFF between the commit in question and the previous commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using git checkout I'm able to quickly return to various commits to check for bugs. Once the first commit that contains the bug is found I can use git diff to see the changes between the broken commit and the previous commit quickly narrowing down on the issue.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to use Git to create a shared repository between my Mac and Windows computers so that I can work on projects from either system.
