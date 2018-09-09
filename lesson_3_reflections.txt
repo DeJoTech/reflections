@@ -1,17 +1,28 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    A remote repository provides three functions.
+    1. It acts as a backup to your code recording all the commits that you
+    have stored locally.
+    2. It allows for a project to be shared so others may take that code
+    and add there own changes without effecting your code.
+    3. It allows for a project to be worked on by a team.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You may have unfinished sections of code that your not ready to sync.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A Fork is a clone of a repository where both the original and the clone
+    reside on Github servers and was created using the Fork tool.
+
+    A clone is a copy of a repository where one copy is on a remote server
+    and one copy is local or both copies of the repository are local.
+
+    A branch is part of a repository where changes exist apart from the Master.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
